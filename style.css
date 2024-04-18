@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #D5FF81;
+  }
+  
+  .header { /* Color de fondo del encabezado */
+    padding: 20px;
+    display: flex;
+    align-items: center; /* Alinea los elementos verticalmente al centro */
+  }
+  
+  .logo-container {
+    border-radius: 50%; /* Asegura que el contenedor del logo sea redondeado */
+    overflow: hidden; /* Evita que la imagen se desborde del contenedor */
+  }
+  
+  .logo {
+    width: 90px;
+    height: 60px;
+  }
+  
+  .title {
+    color: #008000; /* Verde fuerte */
+    margin-right: 10px; /* Espacio entre el logo y el título */
+    font-size: 20px;
+  }
+
+  /* Los estilos previos se mantienen */
+
+.icon-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  .left-icons {
+    display: flex;
+    align-items: center;
+    
+    
+  }
+  
+  .right-icons {
+    display: flex;
+  }
+  
+  .right-icons img {
+    width: 40px; /* Ajusta el tamaño según sea necesario */
+    height: 40px;
+    margin-left: 10px;
+  }
+  /* Los estilos previos se mantienen */
+
+.additional-icon {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .additional-icon img {
+    width: 140px; /* Ajusta el tamaño según sea necesario */
+    height: 50px;
+    margin-left: 10px;
+  }
+  
+
+  
+  
+  /* Los estilos previos se mantienen */
+
+/* Los estilos previos se mantienen */
+
+
+  /* Los estilos previos se mantienen */
+
+.footer { /* Color de fondo del footer */
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .footer-icon {
+    text-align: center; /* Centra el contenido horizontalmente */
+  }
+  
+  /* Los estilos previos se mantienen */
+
+.grid-container {
+    margin-top: 20px;
+  }
+  
+  .grid-row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* Los estilos previos se mantienen */
+
+.grid-item {
+    display: flex;
+    align-items: flex-end;
+    padding: 5px;
+  }
+  
+  .grid-item img {
+    width: 100%; /* Ajusta el tamaño del icono */
+    height: auto;
+  }
+  
+  .grid-item-big {
+    flex: 2; /* Columna doble */
+  }
+  
+  /* Estilos responsivos */
+  @media (max-width: 768px) {
+    .grid-item {
+      padding: 3px;
+    }
+  
+    .grid-item img {
+      max-width: 100%;
+      height: auto;
+    }
+  
+    .grid-item-big {
+      flex: 1; /* Columna doble */
+    }
+  
+  
+    .grid-item {/* Cada elemento ocupa todo el ancho en una sola columna */
+      margin-bottom: 10px; /* Espaciado entre filas */
+    }
+  }
+  

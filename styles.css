@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #D5FF81;
+  }
+  
+  .container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .logo {
+    width: 200px;
+    height: 100px;
+  }
+  
+  .title {
+    color: #008000; /* Verde fuerte */
+    font-size: 24px;
+    margin-top: 20px;
+  }
+  
+  .subtitle {
+    color: #333; /* Color de texto por defecto */
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .start-button {
+    background-color: #008000; /* Verde fuerte */
+    color: #fff; /* Color de texto blanco */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .start-button:hover {
+    background-color: #006400; /* Cambiar el color al pasar el ratón */
+  }
+  
+  /* Agregar icono a botón */
+  .start-button i {
+    margin-right: 5px; /* Espacio entre el icono y el texto del botón */
+  }
