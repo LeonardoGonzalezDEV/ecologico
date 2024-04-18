@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Inicio - Heroes Ambientales</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
 </head>
 <body>
   <header class="header">
@@ -66,6 +67,17 @@
         </a>
     </div>
 </footer>
+<script>
+  if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('sw.js') // Registra el Service Worker
+          .then(registration => {
+              console.log('Service Worker registrado con éxito:', registration);
+          })
+          .catch(error => {
+              console.log('Error al registrar el Service Worker:', error);
+          });
+  }
+</script>
 
   <!-- Resto del contenido de la página -->
 </body>
